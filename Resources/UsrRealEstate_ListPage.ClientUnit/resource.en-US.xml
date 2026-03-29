@@ -2,7 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Недвижимость list page" />
+			<Item Name="Caption" Value="Real estate list page" />
 			<Item Name="LocalizableStrings.Button_l4qshds_caption.Value" Value="Print" />
 		</Items>
 	</Group>

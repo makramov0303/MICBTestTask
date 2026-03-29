@@ -3,6 +3,13 @@ define("UsrRealEstate_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
 				"operation": "merge",
+				"name": "AddButton",
+				"values": {
+					"size": "large"
+				}
+			},
+			{
+				"operation": "merge",
 				"name": "MenuItem_ImportFromExcel",
 				"values": {
 					"clicked": {

@@ -2,7 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Недвижимость form page" />
+			<Item Name="Caption" Value="Real estate form page" />
 			<Item Name="LocalizableStrings.ActionsButton_caption.Value" Value="Кнопка" />
 			<Item Name="LocalizableStrings.AddRealEstateMenuItem_caption.Value" Value="Add views" />
 			<Item Name="LocalizableStrings.Button_ygkfpmv_caption.Value" Value="Print" />

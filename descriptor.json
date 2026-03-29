@@ -1,8 +1,8 @@
-{
+﻿{
   "Descriptor": {
     "UId": "d3784c10-ef43-101b-ab3b-b34e0383f263",
     "Name": "MICBTestTask",
-    "ModifiedOnUtc": "\/Date(1774804281529)\/",
+    "ModifiedOnUtc": "\/Date(1774543598000)\/",
     "Maintainer": "Customer",
     "DependsOn": [
       {
