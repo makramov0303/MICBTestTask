@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.94a278d8-e6ac-2b34-e955-d8f02134959e.Caption" Value="Сделать поле Комментария обязательным" />
+			<Item Name="Caption" Value="Страница записи Недвижимость (Бизнес правила)" />
+		</Items>
+	</Group>
+</Resources>

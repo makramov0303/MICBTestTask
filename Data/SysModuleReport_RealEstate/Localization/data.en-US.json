@@ -1,0 +1,18 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "ColumnName": "Id",
+          "Value": "28eed375-30b1-da1c-6d77-1d2bd59059b3"
+        },
+        {
+          "SchemaColumnUId": "3fb83606-040e-4fdb-aeb6-a9357886dcb3",
+          "ColumnName": "Caption",
+          "Value": "Real estate report"
+        }
+      ]
+    }
+  ]
+}

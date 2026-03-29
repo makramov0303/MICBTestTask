@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Недвижимость form page" />
+			<Item Name="LocalizableStrings.ActionsButton_caption.Value" Value="Кнопка" />
+			<Item Name="LocalizableStrings.AddRealEstateMenuItem_caption.Value" Value="Add views" />
+			<Item Name="LocalizableStrings.Button_ygkfpmv_caption.Value" Value="Print" />
+			<Item Name="LocalizableStrings.NegativeValueErrorMsg.Value" Value="The value cannot be negative!" />
+			<Item Name="LocalizableStrings.RealEstateAddButton_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.RealEstateViewsAddErrorMsg.Value" Value="&#xA;Failed to add new records to the Views detail. Error: {0}" />
+			<Item Name="LocalizableStrings.RealEstateViewsAddSuccessMsg.Value" Value="New entries for the Views detail have been successfully added!" />
+			<Item Name="LocalizableStrings.RealEstateViewsPanel_title.Value" Value="Views" />
+			<Item Name="LocalizableStrings.RealEstateViewsRefreshButton_caption.Value" Value="Кнопка" />
+			<Item Name="LocalizableStrings.addRecord_2xjf5zi_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_p05nfxk_caption.Value" Value="Добавить" />
+		</Items>
+	</Group>
+</Resources>

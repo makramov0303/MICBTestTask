@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "e202178a-4d40-47bb-b20a-c137caad4125",
+    "Name": "UsrRealEstateViewsAddRecordsProcess",
+    "ModifiedOnUtc": "\/Date(1774673230000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Процесс добавления записей в объект Просмотры недвижимости",
+    "DependsOn": []
+  }
+}

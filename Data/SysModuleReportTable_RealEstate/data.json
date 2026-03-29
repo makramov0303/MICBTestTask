@@ -1,0 +1,61 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "108f8184-5f11-4c46-8141-c247f3a79011"
+        },
+        {
+          "SchemaColumnUId": "154371d2-7624-4a1b-8019-e5c202c2260d",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "1a6de7b4-2b63-4983-989c-e5f5ad91c559",
+          "Value": "Недвижимость"
+        },
+        {
+          "SchemaColumnUId": "1ec0aaa5-139f-e8c5-7269-e96044b51ae1",
+          "Value": "{\"className\":\"Terrasoft.FilterGroup\",\"items\":{},\"logicalOperation\":0,\"isEnabled\":true,\"filterType\":6,\"key\":\"\"}"
+        },
+        {
+          "SchemaColumnUId": "2f560358-9c67-4ddb-8ae8-e9507c0faab9",
+          "Value": "Просмотры недвижимости"
+        },
+        {
+          "SchemaColumnUId": "2f929142-c949-4965-822b-718d744291fa",
+          "Value": "6b19f065-f9b6-42eb-9f1e-7b1f21693914"
+        },
+        {
+          "SchemaColumnUId": "6e37e4a0-1c37-4475-83aa-dd218ff47173",
+          "Value": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617"
+        },
+        {
+          "SchemaColumnUId": "79a3fa68-aef2-4ed5-86d2-5fb4dc4a7ae3",
+          "Value": "d1a74a59-2a5b-8a7f-11d7-82f5eeb15533"
+        },
+        {
+          "SchemaColumnUId": "7ac8fc3b-9f5f-40d3-8918-3c18bc54cc23",
+          "Value": "Id"
+        },
+        {
+          "SchemaColumnUId": "8501dbf4-1603-4e8b-b875-e1d9c8de5e8c",
+          "Value": "28eed375-30b1-da1c-6d77-1d2bd59059b3",
+          "DisplayValue": "Отчет недвижимости"
+        },
+        {
+          "SchemaColumnUId": "b368f76c-1279-4700-8914-e821390edfdd",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "b54b15ab-474f-117c-f6ae-616896984747",
+          "Value": "[{caption:\"Дата время просмотра\",metaPath:\"5784b2e7-477c-eec3-24ff-722fb098f401\",metaPathCaption:\"Дата время просмотра\",aggregationType:\"None\",subFilters:\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"key\\\":\\\"\\\"}\",dataValueType:\"DateTime\",sort:\"Descending\"},{caption:\"Потенциальный клиент\",metaPath:\"4624ac6d-b9fa-0bdb-2701-f1bc0294c9de\",metaPathCaption:\"Потенциальный клиент\",aggregationType:\"None\",subFilters:\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"key\\\":\\\"\\\"}\",dataValueType:\"Lookup\"},{caption:\"Ответственный\",metaPath:\"c44e5678-0af6-3e26-d7dd-400481dbf597\",metaPathCaption:\"Ответственный\",aggregationType:\"None\",subFilters:\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"key\\\":\\\"\\\"}\",dataValueType:\"Lookup\"},{caption:\"Комментарий\",metaPath:\"d6f0cac3-2a70-4521-7c70-44d1e7f6d84a\",metaPathCaption:\"Комментарий\",aggregationType:\"None\",subFilters:\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"key\\\":\\\"\\\"}\",dataValueType:\"Text\"}]"
+        },
+        {
+          "SchemaColumnUId": "dcbcf570-397b-4c65-bc5c-ffc91e6cc60a",
+          "Value": "UsrRealEstateView"
+        }
+      ]
+    }
+  ]
+}

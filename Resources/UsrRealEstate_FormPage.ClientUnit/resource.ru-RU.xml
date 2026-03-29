@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Страница записи Недвижимость" />
+			<Item Name="LocalizableStrings.ActionsButton_caption.Value" Value="Кнопка" />
+			<Item Name="LocalizableStrings.AddRealEstateMenuItem_caption.Value" Value="Добавить просмотры" />
+			<Item Name="LocalizableStrings.Button_ygkfpmv_caption.Value" Value="Печать" />
+			<Item Name="LocalizableStrings.NegativeValueErrorMsg.Value" Value="Значение не может быть отрицательным!" />
+			<Item Name="LocalizableStrings.RealEstateAddButton_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.RealEstateViewsAddErrorMsg.Value" Value="Не удалось добавить новые записи на деталь Просмотры. Ошибка: {0}" />
+			<Item Name="LocalizableStrings.RealEstateViewsAddSuccessMsg.Value" Value="Новые записи для детали Просмотры успешно добавлены!" />
+			<Item Name="LocalizableStrings.RealEstateViewsPanel_title.Value" Value="Просмотры" />
+			<Item Name="LocalizableStrings.RealEstateViewsRefreshButton_caption.Value" Value="Кнопка" />
+			<Item Name="LocalizableStrings.addRecord_2xjf5zi_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_p05nfxk_caption.Value" Value="Добавить" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,42 @@
+﻿{
+  "Descriptor": {
+    "UId": "721b0b17-ae0e-8570-4e09-78afb3cc88c3",
+    "Name": "UsrRealEstateOfferType_LookupValues",
+    "ModifiedOnUtc": "\/Date(1774801488000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "505f376f-dec3-4da5-a794-5fc9a658617d",
+      "Name": "UsrRealEstateOfferType"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "0efa4727-029a-6f66-a6cc-048f010d9140",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "UsrCommissionPercent",
+        "DataTypeValueUId": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+      },
+      {
+        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Description",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      }
+    ]
+  }
+}

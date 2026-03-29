@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "20fa1cf5-70b4-4192-92bc-e0a8e79018ee",
+    "Name": "UsrRealEstate_FormPageBusinessRule",
+    "ModifiedOnUtc": "\/Date(1774612112000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Страница записи Недвижимость (Бизнес правила)",
+    "DependsOn": []
+  }
+}

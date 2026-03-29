@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "d2a5e37d-3d21-46ae-a68a-71f7ed9657b6",
+    "Name": "UsrRealEstateViewEdit",
+    "ModifiedOnUtc": "\/Date(1774596594000)\/",
+    "Parent": {
+      "UId": "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9",
+      "Name": "PageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница записи Просмотры недвижимости"
+  }
+}

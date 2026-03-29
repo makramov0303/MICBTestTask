@@ -1,0 +1,15 @@
+{
+  "Descriptor": {
+    "UId": "d3784c10-ef43-101b-ab3b-b34e0383f263",
+    "Name": "MICBTestTask",
+    "ModifiedOnUtc": "\/Date(1774804281529)\/",
+    "Maintainer": "Customer",
+    "DependsOn": [
+      {
+        "UId": "31fb3696-57b3-48c2-abe8-5a74e3530ca7",
+        "PackageVersion": "7.8.0",
+        "Name": "BankSales_BCJ_Lending_Marketing"
+      }
+    ]
+  }
+}
