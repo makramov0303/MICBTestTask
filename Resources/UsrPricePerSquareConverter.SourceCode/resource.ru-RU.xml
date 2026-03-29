@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Price per square converter" />
+			<Item Name="LocalizableStrings.InvalidIncomingValue.Value" Value="Входящее значение не валидный" />
+			<Item Name="LocalizableStrings.NullUserConnection.Value" Value="UserConnection пустой" />
+		</Items>
+	</Group>
+</Resources>

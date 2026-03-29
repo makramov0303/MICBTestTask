@@ -1,0 +1,31 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "SourceCodeSchemaManager",
+      "UId": "073f0854-aa0b-4995-ab2b-31a8359dc1cb",
+      "A2": "UsrPricePerSquareConverter",
+      "A5": "b238f8c6-85ae-4706-98ba-c65174871b9d",
+      "B1": [],
+      "B2": [
+        {
+          "UId": "c598db64-11cb-ade7-282b-67af97fee1ca",
+          "A2": "NullUserConnection",
+          "A3": "073f0854-aa0b-4995-ab2b-31a8359dc1cb",
+          "A4": "073f0854-aa0b-4995-ab2b-31a8359dc1cb",
+          "A5": "b238f8c6-85ae-4706-98ba-c65174871b9d"
+        },
+        {
+          "UId": "8ed875f3-2e5f-a973-aee0-1496da7bc88f",
+          "A2": "InvalidIncomingValue",
+          "A3": "073f0854-aa0b-4995-ab2b-31a8359dc1cb",
+          "A4": "073f0854-aa0b-4995-ab2b-31a8359dc1cb",
+          "A5": "b238f8c6-85ae-4706-98ba-c65174871b9d"
+        }
+      ],
+      "B3": [],
+      "B6": "d3784c10-ef43-101b-ab3b-b34e0383f263",
+      "B8": "8.3.2.4199",
+      "HD1": "50e3acc0-26fc-4237-a095-849a1d534bd3"
+    }
+  }
+}

@@ -7,11 +7,9 @@ using Terrasoft.Core;
 using Terrasoft.Core.DB;
 using Terrasoft.Web.Common;
 
-namespace Terrasoft.Configuration
-{
+namespace Terrasoft.Configuration {
 	[DataContract]
-	public class RealEstateRequest
-	{
+	public class RealEstateRequest {
 		[DataMember(Name = "TypeId")]
 		public Guid? TypeId { get; set; }
 
@@ -20,8 +18,7 @@ namespace Terrasoft.Configuration
 	}
 
 	[DataContract]
-	public class RealEstateResponse
-	{
+	public class RealEstateResponse {
 		[DataMember(Name = "TotalPrice")]
 		public decimal TotalPrice { get; set; }
 
@@ -31,25 +28,20 @@ namespace Terrasoft.Configuration
 
 	[ServiceContract]
 	[AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Required)]
-	public class UsrRealEstateService : BaseService
-	{
+	public class UsrRealEstateService : BaseService {
+		
 		[OperationContract]
-		[WebInvoke(
-			Method = "POST", UriTemplate = "GetTotalPrice", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare
-		)]
-		public RealEstateResponse GetTotalPrice(RealEstateRequest request)
-		{
+		[WebInvoke(Method = "POST", UriTemplate = "GetTotalPrice", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
+		public RealEstateResponse GetTotalPrice(RealEstateRequest request) {
 			if (!IsValidRequest(request)) {
 				return InvalidRequest();
 			}
 
-			try
-			{
+			try {
 				var total = GetTotalPriceByTypes(request);
 				return new RealEstateResponse { TotalPrice = total };
 			}
-			catch (Exception ex)
-			{
+			catch (Exception ex) {
 				return GetTotalPriceError(ex.Message);
 			}
 		}
@@ -78,7 +70,7 @@ namespace Terrasoft.Configuration
 		}
 
 		private decimal GetTotalPriceByTypes (RealEstateRequest request) {
-		   var select = new Select(UserConnection)
+			var select = new Select(UserConnection)
 				.Column(Func.Sum("UsrPrice")).As("TotalPrice")
 				.From("UsrRealEstate")
 				.Where("UsrTypeId").IsEqual(Column.Parameter(request.TypeId.Value))
@@ -88,10 +80,8 @@ namespace Terrasoft.Configuration
 			decimal totalPrice = 0;
 
 			using (var dbExecutor = UserConnection.EnsureDBConnection())
-			using (var reader = select.ExecuteReader(dbExecutor))
-			{
-				if (reader.Read() && !reader.IsDBNull(0))
-				{
+			using (var reader = select.ExecuteReader(dbExecutor)) {
+				if (reader.Read() && !reader.IsDBNull(0)) {
 					totalPrice = reader.GetDecimal(0);
 				}
 			}

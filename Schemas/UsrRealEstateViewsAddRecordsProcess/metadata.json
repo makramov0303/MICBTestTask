@@ -219,7 +219,7 @@
           "BO3": true,
           "BP2": [],
           "CL2": "FFFFFFFF",
-          "CH1": "try\r\n{\r\n\tInsertRealEstateViews();\r\n\tSendMessageToClient(true, \"\");\r\n}\r\ncatch (Exception ex) {\r\n\tSendMessageToClient(false, ex.Message);\r\n}\r\nreturn true;",
+          "CH1": "try {\r\n\tInsertRealEstateViews();\r\n\tSendMessageToClient(true, \"\");\r\n}\r\ncatch (Exception ex) {\r\n\tSendMessageToClient(false, ex.Message);\r\n}\r\nreturn true;",
           "CH2": true
         },
         {
@@ -278,7 +278,7 @@
       "BK18": "Business Process",
       "BK29": true,
       "BK30": true,
-      "BK32": "public void InsertRealEstateViews(){\n\tvar realEstateId = Get<Guid>(\"RealEstateId\");\n\tvar dateNow = DateTime.UtcNow;\n\t\n\tusing (var dbExecutor = UserConnection.EnsureDBConnection())\n\t{\n\t    dbExecutor.StartTransaction();\n\t\n\t    for (int i = 1; i <= 5; i++)\n\t    {\n\t        new Insert(UserConnection)\n\t            .Into(\"UsrRealEstateView\")\n\t            .Set(\"UsrRealEstateId\", Column.Parameter(realEstateId))\n\t            .Set(\"UsrViewDate\", Column.Parameter(dateNow.AddDays(i)))\n\t            .Set(\"UsrComment\", Column.Parameter(i))\n\t            .Execute(dbExecutor);\n\t    }\n\t\n\t    dbExecutor.CommitTransaction();\n\t}\n}\npublic void SendMessageToClient(bool success, string error){\n    string sender = \"UsrAddRealEstateViesResult\";\n \tGuid realEstateId = Get<Guid>(\"RealEstateId\");\n \t\n    string message = Newtonsoft.Json.JsonConvert.SerializeObject(new {\n        success = success,\n        error = error,\n        realEstateId = realEstateId\n    });\n\n    MsgChannelUtilities.PostMessage(UserConnection, sender, message);\n}",
+      "BK32": "public void InsertRealEstateViews() {\n\tvar realEstateId = Get<Guid>(\"RealEstateId\");\n\tvar dateNow = DateTime.UtcNow;\n\t\n\tusing (var dbExecutor = UserConnection.EnsureDBConnection()) {\n\t    dbExecutor.StartTransaction();\n\t\n\t    for (int i = 1; i <= 5; i++) {\n\t        new Insert(UserConnection)\n\t            .Into(\"UsrRealEstateView\")\n\t            .Set(\"UsrRealEstateId\", Column.Parameter(realEstateId))\n\t            .Set(\"UsrViewDate\", Column.Parameter(dateNow.AddDays(i)))\n\t            .Set(\"UsrComment\", Column.Parameter(i))\n\t            .Execute(dbExecutor);\n\t    }\n\t\n\t    dbExecutor.CommitTransaction();\n\t}\n}\npublic void SendMessageToClient(bool success, string error) {\n    string sender = \"UsrAddRealEstateViesResult\";\n \tGuid realEstateId = Get<Guid>(\"RealEstateId\");\n \t\n    string message = Newtonsoft.Json.JsonConvert.SerializeObject(new {\n        success = success,\n        error = error,\n        realEstateId = realEstateId\n    });\n\n    MsgChannelUtilities.PostMessage(UserConnection, sender, message);\n}",
       "BK34": "null",
       "Labels": [],
       "BK24": []
