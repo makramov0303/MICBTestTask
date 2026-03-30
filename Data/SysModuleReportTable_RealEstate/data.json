@@ -41,11 +41,11 @@
         {
           "SchemaColumnUId": "8501dbf4-1603-4e8b-b875-e1d9c8de5e8c",
           "Value": "28eed375-30b1-da1c-6d77-1d2bd59059b3",
-          "DisplayValue": "Отчет недвижимости"
+          "DisplayValue": "Real estate report"
         },
         {
           "SchemaColumnUId": "b368f76c-1279-4700-8914-e821390edfdd",
-          "Value": true
+          "Value": false
         },
         {
           "SchemaColumnUId": "b54b15ab-474f-117c-f6ae-616896984747",
